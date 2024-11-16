@@ -9,16 +9,16 @@ const App = () => {
 }
 
 const Header = () => {
-  const course = 'Desenvolvimento de aplicação Half Stack'
+  const course = 'Half Stack application development'
   return(
     <h1>{course}</h1>
   )
 }
 
 const Content = () => {
-  const part1 = 'Fundamentos da biblioteca React'
-  const part2 = 'Usando props para passar dados'
-  const part3 = 'Estado de um componente'
+  const part1 = 'Fundamentals of React'
+  const part2 = 'Using props to pass data'
+  const part3 = 'State of a component'
   const exercises1 = 10
   const exercises2 = 7
   const exercises3 = 14
